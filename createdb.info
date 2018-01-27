@@ -1,0 +1,7 @@
+.../crud$ sudo mysql -u root -p
+
+create database crud;
+create user crudkorisnik;
+grant all on crud.* to 'crudkorisnik@localhost' identified by 'vvgmasterzaporka';
+
+

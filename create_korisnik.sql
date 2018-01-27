@@ -1,0 +1,7 @@
+CREATE TABLE korisnik (
+   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   ime VARCHAR(50) NOT NULL,
+   prezime VARCHAR(50) NOT NULL,
+   adresa VARCHAR(50) NOT NULL,
+   spol CHAR(1) NOT NULL
+);
